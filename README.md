@@ -24,9 +24,7 @@ The only features which have not been transformed with PCA are 'Time' and 'Amoun
 
  
 
-Project Task: Week 1
-
-Exploratory Data Analysis (EDA):
+I. Exploratory Data Analysis (EDA):
 
 1.    Perform an EDA on the Dataset.
        a)    Check all the latent features and parameters with their mean and standard deviation. Value are close to 0 centered (mean)
@@ -40,9 +38,7 @@ Exploratory Data Analysis (EDA):
 4     Following are the matrices for evaluating the model performance: Precision, Recall, F1-Score, AUC-ROC curve. Use F1-Score as
        the evaluation criteria for this project.
 
-Project Task: Week 2
-
-Modeling Techniques:
+II. Modeling Techniques:
 
 Try out models like Naive Bayes, Logistic Regression or SVM. Find out which one performs the best
 Use different Tree-based classifiers like Random Forest and XGBoost. 
@@ -50,9 +46,7 @@ Use different Tree-based classifiers like Random Forest and XGBoost.
        b.    Tree-based classifiers have fine-tuning parameters which takes care of the imbalanced class. Random-Forest and XGBboost.
 Compare the results of 1 with 2 and check if there is any incremental gain.
 
-Project Task: Week 3
-
-Applying ANN:
+III. Applying ANN:
 
 Use ANN (Artificial Neural Network) to identify fradulent and non-fradulent.
        a)    Fine-tune number of layers
@@ -67,13 +61,12 @@ Use ANN (Artificial Neural Network) to identify fradulent and non-fradulent.
 3.    Find the best setting of neural net that can be best classified as fraudulent and non-fraudulent transactions. Use
        techniques like Grid Search, Cross-Validation and Random search.
 
-Anomaly Detection:
+IV. Anomaly Detection:
 
 4.     Implement anomaly detection algorithms.
         a)    Assume that the data is coming from a single or a combination of multivariate Gaussian
         b)    Formalize a scoring criterion, which gives a scoring probability for the given data point whether it belongs to the
               multivariate Gaussian or Normal Distribution fitted in a)
-Project Task: Week 4
 
 Inference and Observations:
 
